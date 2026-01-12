@@ -3,7 +3,7 @@ import requests
 API_KEY = "YOUR-API-KEY-HERE"
 BASE_CURRENCY = input("Enter base currency (e.g., USD, EUR, GBP) [Default: USD]: ").upper() or "USD"
 
-url = f"https://v6.exchangerate-api.com/v6/d9b4247da85447d81c7391a2/latest/{BASE_CURRENCY}"
+url = f"https://v6.exchangerate-api.com/v6/YOUR-API-KEY-HERE/latest/{BASE_CURRENCY}"
 
 response = requests.get(url)
 data = response.json()
