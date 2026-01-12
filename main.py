@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "d9b4247da85447d81c7391a2"
+API_KEY = "YOUR-API-KEY-HERE"
 BASE_CURRENCY = input("Enter base currency (e.g., USD, EUR, GBP) [Default: USD]: ").upper() or "USD"
 
 url = f"https://v6.exchangerate-api.com/v6/d9b4247da85447d81c7391a2/latest/{BASE_CURRENCY}"
